@@ -12,7 +12,8 @@
 
 .page {
   margin-left: 100px;
-  margin-right: 601px;
+  margin-right: 450px;
+
 }
 
 .newsicon {
@@ -21,18 +22,9 @@
   width: 100px;
   border: 2px solid rgba(128, 64, 142, 255);
   background-color: rgba(128, 64, 142, 255);
-  padding-right: 1803px;
-  margin: collapse;
+  padding-right: 1403px;
 }
 
-.tart {
-  top: 13px;
-  left: 200px;
-  width: 116px;
-  height: 37px;
-  position: absolute;
-  background: lightpink;
-}
 
 .title {
   padding-top: 73px;
@@ -41,7 +33,7 @@
 table,
 td {
   border: 1px solid #333;
-  margin-left: 1491px;
+  margin-left: 1194px;
   margin-top: -605px;
   box-sizing: border-box;
 }

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>
@@ -5,20 +6,13 @@
       Know | TRN News
     </title>
     <link rel="stylesheet" href="alienremains.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
   </head>
 
   <body>
     <div class="topbar">
       <img src="./img/TRN.jpg" alt="TRN news icon" class="newsicon" />
-      <button
-        class="tart"
-        onclick="window.location.href='./pgs/article2.html'"
-        target="_blank"
-      >
-        Trending Articles
-      </button>
     </div>
 
     <div class="page">
@@ -97,7 +91,7 @@
         var roundedValue =
           randomValue.toFixed(0); /*round to 0 decimal places */
 
-        document.getElementsByClassName("randomviewers").innerHTML =
+        document.getElementById("randomviewers").innerHTML =
           roundedValue; /* output to paragraph */
         return roundedValue;
       }
@@ -115,7 +109,7 @@
             <button onclick="getRandomArbitrary(100, 200)" class="view">
               See current viewers:
             </button>
-            <p class="randomviewers"></p>
+            <p id="randomviewers"></p>
           </td>
           <td><img class="talien" src="./img/alien.jpg" /></td>
           <td>
