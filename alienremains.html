@@ -5,10 +5,7 @@
       Know | TRN News
     </title>
     <link rel="stylesheet" href="alienremains.css" />
-
-    <meta name="viewport" />
-    <meta content="width=device-width, initial-scale=1.0" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
   </head>
 
@@ -93,9 +90,15 @@
 
     <script>
       function getRandomArbitrary(min, max) {
-        var randomValue = Math.random() * (max - min) + min;
-        var roundedValue = randomValue.toFixed(0);
-        document.getElementById("randomviewers").innerHTML = roundedValue;
+        var randomValue =
+          Math.random() * (max - min) +
+          min; /* Since Math.random() only generates 0-1 */
+
+        var roundedValue =
+          randomValue.toFixed(0); /*round to 0 decimal places */
+
+        document.getElementsByClassName("randomviewers").innerHTML =
+          roundedValue; /* output to paragraph */
         return roundedValue;
       }
     </script>
@@ -112,7 +115,7 @@
             <button onclick="getRandomArbitrary(100, 200)" class="view">
               See current viewers:
             </button>
-            <p id="randomviewers"></p>
+            <p class="randomviewers"></p>
           </td>
           <td><img class="talien" src="./img/alien.jpg" /></td>
           <td>
