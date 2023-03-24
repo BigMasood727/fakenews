@@ -13,7 +13,6 @@
 .page {
   margin-left: 100px;
   margin-right: 450px;
-
 }
 
 .newsicon {
@@ -22,9 +21,15 @@
   width: 100px;
   border: 2px solid rgba(128, 64, 142, 255);
   background-color: rgba(128, 64, 142, 255);
-  padding-right: 1403px;
+  padding-right: 1572px;
 }
 
+.alien1,
+.alien2,
+.alien3 {
+  width: auto;
+  height: 200px;
+}
 
 .title {
   padding-top: 73px;
@@ -33,7 +38,7 @@
 table,
 td {
   border: 1px solid #333;
-  margin-left: 1194px;
+  margin-left: 1276px;
   margin-top: -605px;
   box-sizing: border-box;
 }
