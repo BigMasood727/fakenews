@@ -39,8 +39,7 @@
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
+        allowfullscreen></iframe>
 
       <p>
         In a shocking discovery that could change our understanding of human
@@ -94,40 +93,43 @@
       </p>
     </div>
 
-    <script>
-      function getRandomArbitrary(min, max) {
-        var randomValue =
-          Math.random() * (max - min) +
-          min; /* Since Math.random() only generates 0-1 */
-
-        var roundedValue =
-          randomValue.toFixed(0); /*round to 0 decimal places */
-
-        document.getElementById("randomviewers").innerHTML =
-          roundedValue; /* output to paragraph */
-        return roundedValue;
-      }
-    </script>
-
     <table>
       <thead>
         <tr>
-          <th colspan="3">Trending Articles</th>
+          <th colspan="2">Trending Articles</th>
         </tr>
       </thead>
       <tbody id="tbody">
         <tr>
-          <td class="viewerc1">
-            <button onclick="getRandomArbitrary(100, 200)" class="view">
-              See current viewers:
-            </button>
-            <p id="randomviewers"></p>
-          </td>
           <td><img class="talien" src="./img/alien.jpg" /></td>
           <td>
             <a href="alienremains.html" target="_blank"
-              >Alien Remains Unearthed: The Cover-Up and the Truth They Don't
-              Want You to Know</a
+              ><em
+                >Alien Remains Unearthed: The Cover-Up and the Truth They Don't
+                Want You to Know</em
+              ></a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><img src="./img/hollowearth1.jpg" class="talien" /></td>
+          <td>
+            <a href="./pgs/hollowearth.html" target="_blank"
+              ><em
+                >The Secret Conspiracy of the Hollow Earth: Uncovering the
+                Mysteries Beneath Antarctica</em
+              ></a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><img src="./img/internetshutdown1.jpg" class="talien" /></td>
+          <td>
+            <a href="./pgs/internetshutdown.html" target="_blank"
+              ><em
+                >The Great Internet Shutdown Conspiracy: How the Government is
+                Planning to Take Control</em
+              ></a
             >
           </td>
         </tr>
