@@ -10,6 +10,29 @@
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #1f1b24;
+  color: white;
+}
+
+.dmbutton {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 12px;
+  position: absolute;
+  margin-left: 1562px;
+  margin-top: 1px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 100px;
+}
+
 .page {
   margin-left: 100px;
   margin-right: 450px;
@@ -26,7 +49,8 @@
 
 .alien1,
 .alien2,
-.alien3 {
+.alien3,
+.alien4 {
   width: auto;
   height: 200px;
 }
@@ -39,7 +63,7 @@ table,
 td {
   border: 1px solid #333;
   margin-left: 1276px;
-  margin-top: -605px;
+  margin-top: -1560px;
   box-sizing: border-box;
 }
 
